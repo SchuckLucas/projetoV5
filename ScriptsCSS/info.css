@@ -1,0 +1,31 @@
+#bt_sair {
+  margin: 0;
+}
+
+main, #box_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header {
+  justify-content: space-around;
+}
+
+#box_main{
+  gap: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  animation: aparecer 1s linear;
+}
+
+@keyframes aparecer{
+  0%{
+    opacity: 0%;
+  }
+  100%{
+
+    opacity: 100%;
+  }
+}

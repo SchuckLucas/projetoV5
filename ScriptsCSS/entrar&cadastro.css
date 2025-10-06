@@ -1,0 +1,21 @@
+main {
+  align-items: center;
+}
+
+#box {
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#input_nome,
+#input_senha {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
