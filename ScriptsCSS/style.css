@@ -8,7 +8,7 @@
   --cor-box2: #e0ffff;
   --cor-box3: #fffafa;
   --cor-sombra: #a0a9c0;
-  --blue: #1e90ff;
+  --blue: #6495ed;
   --cor-fonte: #000000;
 }
 
@@ -200,11 +200,17 @@ main {
 }
 
 #bt_login,
+#bt_cadastro,
+#bt_efetuar_login,
+#bt_efetuar_cadastro {
+  background-color: var(--blue);
+  box-shadow: 2px 2px 5px var(--blue);
+}
+
+#bt_login,
 #bt_cadastro {
   position: fixed;
   bottom: 30px;
-  background-color: var(--blue);
-  box-shadow: 2px 2px 5px var(--blue);
 }
 
 #bt_login {
