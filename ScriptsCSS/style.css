@@ -132,7 +132,7 @@ main {
   cursor: pointer;
 }
 
-.graficos {
+.imagens {
   border-radius: 15px;
   box-shadow: 2px 2px 20px var(--cor-sombra);
 }
