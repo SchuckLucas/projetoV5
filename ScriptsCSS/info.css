@@ -1,4 +1,4 @@
-#bt_sair {
+#bt_sair {#bt_sair {
   margin: 0;
 }
 
@@ -20,6 +20,19 @@ header {
   animation: aparecer 1s linear;
 }
 
+.imagens{
+  width: 100px;
+  height: 100px;
+}
+
+#ODSs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
 @keyframes aparecer{
   0%{
     opacity: 0%;
@@ -28,4 +41,5 @@ header {
 
     opacity: 100%;
   }
+}
 }
